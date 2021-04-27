@@ -12,7 +12,7 @@ public class X2Test {
         int c = 0;
         int x = 2;
         int expected = 40;
-        int rsl = ru.job4j.ru.job4j.condition.X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
 
@@ -23,7 +23,7 @@ public class X2Test {
         int c = 1;
         int x = 1;
         int expected = 3;
-        int rsl = ru.job4j.ru.job4j.condition.X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
 
@@ -34,7 +34,7 @@ public class X2Test {
         int c = 1;
         int x = 1;
         int expected = 2;
-        int rsl = ru.job4j.ru.job4j.condition.X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
 
@@ -45,7 +45,7 @@ public class X2Test {
         int c = 0;
         int x = 1;
         int expected = 2;
-        int rsl = ru.job4j.ru.job4j.condition.X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
 

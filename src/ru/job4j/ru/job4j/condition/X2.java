@@ -10,7 +10,7 @@ public class X2 {
         int b = 1;
         int c = 1;
         int x = 0;
-        int rsl = ru.job4j.ru.job4j.condition.X2.calc(a, b, c, x);
+        int rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
     }
 }
