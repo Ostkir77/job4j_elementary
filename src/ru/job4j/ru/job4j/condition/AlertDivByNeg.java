@@ -1,6 +1,6 @@
 package ru.job4j.ru.job4j.condition;
 
-public class AlertDivByZero {
+public class AlertDivByNeg {
     public static void main(String[] args) {
         possibleDiv(-4);
         possibleDiv(0);
