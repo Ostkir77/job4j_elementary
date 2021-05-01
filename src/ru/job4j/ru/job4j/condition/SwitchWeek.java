@@ -28,7 +28,8 @@ public class SwitchWeek {
             default:
                 name = "Eror";
                 break;
-            return name;
         }
+        return name;
+
     }
 }
