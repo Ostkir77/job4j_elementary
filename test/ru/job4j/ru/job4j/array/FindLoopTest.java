@@ -45,11 +45,11 @@ public class FindLoopTest {
         @Test
     public void whenFind33() {
         int[] data = new int[] {12, 23, 34, 33, 56, 67, 78};
-        int el = 33;
+        int el = 67;
         int start = 1;
         int finish = 5;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 3;
+        int expected = 5;
         Assert.assertEquals(expected, result);
     }
 
