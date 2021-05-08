@@ -1,8 +1,7 @@
-package ru.job4j.ru.job4j.loop;
+package ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.loop.Min;
 
 public class MinTest {
     @Test

@@ -1,8 +1,7 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.condition.DivideBySix;
 
 public class DivideBySixTest {
     @Test
