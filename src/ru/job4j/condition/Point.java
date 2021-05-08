@@ -1,0 +1,16 @@
+package ru.job4j.condition;
+
+public class Point {
+    public static double distance(int x1, int y1, int x2, int y2) {
+        return Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
+    }
+
+    public static void main(String[] args) {
+        double result = Point.distance(0, 0, 2, 0);
+        System.out.println("result (0, 0) to (2, 0) " + result);
+        double resultOne = Point.distance(5, 0, 2, 0);
+        System.out.println("result (5, 0) to (2, 0) " + resultOne);
+        double resultTwo = Point.distance(3, 5, 4, 1);
+        System.out.println("result (3, 5) to (4, 1) " + resultTwo);
+    }
+}

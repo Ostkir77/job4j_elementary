@@ -2,8 +2,9 @@ package ru.job4j.ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.condition.Max;
 
- public class MaxTest {
+public class MaxTest {
     @Test
     public void whenMax5To5Then5() {
         int left = 5;

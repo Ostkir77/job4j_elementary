@@ -2,7 +2,7 @@ package ru.job4j.ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.ru.job4j.array.MinDiapason;
+import ru.job4j.array.MinDiapason;
 
 public class MinDiapasonTest {
     @Test
